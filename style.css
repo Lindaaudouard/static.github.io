@@ -1,3 +1,112 @@
-h1 {
-  color: red;
+.navbar{
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	height: 200px;
+}
+.links{
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	background: white;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+.link{
+	background: white;
+	color:black;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 20px;
+}
+.logo{
+	width:200px;
+}
+.bloc1{
+	display: flex;
+	background: #F6F7F9;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.bloctexte1{
+	background: #F6F7F9;
+	border: 50px solid #F6F7F9;
+}
+.h1{
+	font-family: 'Abril Fatface', cursive;
+	font-size:35px;
+}
+.h2{
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size:25px;
+}
+.bloc2{
+	display: flex;
+	background: #F6F7F9;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.bloctexte2{
+	background: #F6F7F9;
+	border: 50px solid #F6F7F9;
+}
+.p1{
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 20px;
+}
+h5{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 25px;
+}
+h6{
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 20px;
+}
+a{
+	font-family: 'Barlow Condensed', sans-serif;
+}
+i{
+	color:gold;
+}
+h2{
+	font-family: 'Barlow Condensed', sans-serif
+	font-weight: bold;
+	font-size: 5px;
+}
+label{
+	font-family: 'Barlow Condensed', sans-serif;
+}
+.footer {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.3;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+.blocphoto2{
+	align-items: flex-end;
+}
+.mirae{
+	color: gold;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 20px;
 }
